@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb30ddf7c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container text-center m-auto">
+        <h1 class="text-5xl font-bold underline italic my-5">Kalkulator Sederhana</h1>
+
+        <!-- kalkulator -->
+        <table class="mx-auto my-10 border-4 border-amber-800 rounded-xl bg-amber-300 border-separate border-spacing-5 shadow-2xl">
+            <tr>
+                <td colspan="4" class="border-none bg-transparent hover:bg-transparent"><input type="text" class="outline-none p-3 text-right" id="input"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="clear">C</button></td>
+                <td><button id="backspace"><i class="fa-solid fa-delete-left"></i></button></td>
+                <td><button class="operator">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="angka">7</button></td>
+                <td><button class="angka">8</button></td>
+                <td><button class="angka">9</button></td>
+                <td><button class="operator">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="angka">4</button></td>
+                <td><button class="angka">5</button></td>
+                <td><button class="angka">6</button></td>
+                <td><button class="operator">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="angka">1</button></td>
+                <td><button class="angka">2</button></td>
+                <td><button class="angka">3</button></td>
+                <td><button class="operator">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="angka">0</button></td>
+                <td><button>,</button></td>
+                <td><button id="equal">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
